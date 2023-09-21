@@ -17,11 +17,15 @@ add_action(
                 'operands' => ['equals', 'not equals'],
                 'allowMultiselect' => false,
                 'callback' => function(string $operand, $value) {
+                    // Sanitize the user input value
+                    $sanitizedValue = sanitize_text_field($value); 
                     // Normalize the value to ensure a consistent format.
-                    $normalizedValue = strtolower(preg_replace('/[^a-zA-Z0-9]+/', '', $value));
+                    $normalizedValue = strtolower(preg_replace('/[^a-zA-Z0-9]+/', '', $sanitizedValue));
+
                     // Check if a cookie with the normalized value is set.
                     if (isset($_COOKIE[$normalizedValue])) {
-                        $cookieValue = $_COOKIE[$normalizedValue];
+                        // Sanitize the user input value
+                        $cookieValue = sanitize_text_field($_COOKIE[$normalizedValue]);
                         // Check if the operand is 'equals' and return true if the cookie value matches the normalized value.
                         if ($operand === 'equals') {
                             return $cookieValue === $normalizedValue;
@@ -32,7 +36,7 @@ add_action(
                         }
                     }
                     // Return false if no conditions are met.
-                    return false;
+                    return true;
                 },
             ]
         );
