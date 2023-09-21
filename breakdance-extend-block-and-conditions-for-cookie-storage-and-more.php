@@ -3,7 +3,7 @@
  * Plugin Name: Breakdance Custom Conditions and Blocks for Cookie Storage and More
  * Plugin URI: https://plugins.aifb.ch/bccb-ext-plug-aifb
  * Description: Enhance your Breakdance Builder by introducing custom conditions and blocks, focusing on cookie storage functionalities and beyond. This plugin offers a seamless experience to control element visibility based on cookies and provides a foundation for more advanced conditions in future updates.
- * Version: 0.0.1
+ * Version: 0.0.2
  * Requires at least: 6.0
  * Tested up to: 6.3
  * Requires PHP: 8.0
@@ -20,6 +20,8 @@
 if (!defined('WPINC')) {
     die;
 }
+
+namespace AIFB\BreakdanceCustomConditions;
 
 // Definisce la versione attuale del plugin.
 define('BREAKDANCE_CUSTOM_CONDITIONS_VERSION', '0.0.1');
