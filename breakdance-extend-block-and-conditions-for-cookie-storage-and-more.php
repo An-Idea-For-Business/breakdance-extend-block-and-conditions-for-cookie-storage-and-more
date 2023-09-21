@@ -16,12 +16,11 @@
  * Tags: breakdance, conditions, cookie, builder, custom blocks
  */
 
+ namespace AIFB\BreakdanceCustomConditions;
 // Se questo file viene chiamato direttamente, abortire.
 if (!defined('WPINC')) {
     die;
 }
-
-namespace AIFB\BreakdanceCustomConditions;
 
 // Definisce la versione attuale del plugin.
 define('BREAKDANCE_CUSTOM_CONDITIONS_VERSION', '0.0.1');
