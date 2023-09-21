@@ -1,43 +1,53 @@
-# Breakdance Custom Conditions
+# Breakdance Custom Conditions for WordPress
 
 ![Plugin Version](https://img.shields.io/badge/version-0.0.1-blue)
 ![License](https://img.shields.io/badge/license-GPL--3.0-green)
+![WordPress Compatibility](https://img.shields.io/badge/wordpress-6.3%2B-blue)
 
-A WordPress plugin that adds custom conditions to Breakdance Builder.
+Extend your Breakdance Builder capabilities with powerful custom conditions.
 
 <p align="center">
-  <img src="path-to-screenshot-or-logo" alt="Breakdance Custom Conditions Logo or Screenshot">
+  <img src="path-to-screenshot-or-logo" width="500" alt="Breakdance Custom Conditions Logo or Screenshot">
 </p>
 
-## 🚀 Features
+## 🌟 Highlights
 
-- **Cookie Check**: Allows elements to be shown or hidden based on the presence and value of a specified cookie.
+- **Cookie-Based Visibility**: Dynamically control element visibility based on browser cookies.
+- **User-Friendly Interface**: Seamlessly integrates with Breakdance Builder's UI for a smooth user experience.
+- **Extendable Architecture**: Designed for future enhancements. More conditions coming soon!
 
-## 📝 Description
+## 📖 About
 
-This plugin was developed to extend the capabilities of Breakdance Builder, a visual builder for WordPress. The main goal is to provide users with the flexibility to control element visibility based on specific conditions. The current version offers the ability to control visibility based on cookies.
+Breakdance Custom Conditions is a dedicated WordPress plugin crafted to enhance the functionalities of the renowned Breakdance Builder. By introducing versatile conditions, it empowers web designers and developers to exhibit or conceal page elements with precision.
 
-## 🛠 Installation
+## 📥 Installation
 
 1. Download the ZIP archive of this plugin.
-2. Go to the WordPress admin panel and navigate to **Plugins > Add New**.
+2. Navigate to **Plugins > Add New** in your WordPress admin dashboard.
 3. Click on **Upload Plugin** and select the downloaded ZIP file.
-4. Activate the plugin after installation.
+4. Activate the plugin post installation.
 
-## 💡 Usage
+## 🚀 Usage
 
-After activating the plugin, you will see new conditions available in Breakdance Builder:
+1. Navigate to Breakdance Builder in your WordPress dashboard.
+2. When editing a page or post, look for the conditions section.
+3. Among the conditions, you'll now find **Cookie Check**. Use it to set visibility rules based on cookie names and values.
 
-- **Cookie Check**: This condition allows you to input the name of a cookie and decide whether an element should be shown or hidden based on the presence and value of that cookie.
+## 🔮 Future Roadmap
 
-## 🔄 Future Updates
+- **Custom elements for add cookie via breakdance editor**: Add cookie without coding in breakdance editor.
+- **More conditions**: For localstorage and more.
 
-Although the current plugin offers cookie-based checks, we are planning to extend it with more conditions in the future. If you have suggestions or specific needs, please feel free to contact us.
+We're constantly working to make this plugin more powerful. Suggestions are always welcome!
 
-## 🤝 Contributing
+## 🙌 Contribute
 
-If you wish to contribute to the development of this plugin or have ideas to enhance it, you're welcome! Submit a pull request or open an issue on GitHub.
+Your contributions are always valued! Whether it's enhancing features, testing, reporting bugs, or offering translations, every effort counts. Feel free to fork this repository and submit your pull requests.
 
 ## 📜 License
 
-GPL-3.0. See the `LICENSE` file for more details.
+This plugin is licensed under GPL-3.0. For more details, check out the `LICENSE` file.
+
+## 💬 Support & Feedback
+
+Encountered an issue? Or have feedback to share? Don't hesitate to [open an issue on GitHub](https://github.com/An-Idea-For-Business/breakdance-extend-block-and-conditions-for-cookie-storage-and-more/issues). We're here to help and continuously improve!
