@@ -114,7 +114,7 @@ class CookieCreateAndSet extends \Breakdance\Elements\Element
         "date_of_cookie",
         "Date of Cookie",
         [],
-        ['type' => 'date_picker', 'layout' => 'vertical'],
+        ['type' => 'text', 'layout' => 'vertical', 'datePickerOptions' => ['multiple' => 'multiple']],
         false,
         false,
         [],
@@ -138,7 +138,7 @@ class CookieCreateAndSet extends \Breakdance\Elements\Element
 
     static function settings()
     {
-        return false;
+        return ['proOnly' => false, 'shareStateWithChildSSR' => false];
     }
 
     static function addPanelRules()
@@ -178,7 +178,7 @@ class CookieCreateAndSet extends \Breakdance\Elements\Element
 
     static function dynamicPropertyPaths()
     {
-        return false;
+        return ['0' => ['path' => 'settings.advanced.attributes[].value', 'accepts' => 'string'], '1' => ['path' => 'settings.advanced.attributes[].value', 'accepts' => 'string'], '2' => ['path' => 'settings.advanced.attributes[].value', 'accepts' => 'string']];
     }
 
     static function additionalClasses()
@@ -198,6 +198,6 @@ class CookieCreateAndSet extends \Breakdance\Elements\Element
 
     static function propertyPathsToSsrElementWhenValueChanges()
     {
-        return ['content.data_of_cookie'];
+        return false;
     }
 }
