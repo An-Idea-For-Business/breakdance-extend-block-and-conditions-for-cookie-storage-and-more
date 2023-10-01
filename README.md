@@ -1,6 +1,6 @@
 # Breakdance Custom Conditions for WordPress
 
-![Plugin Version](https://img.shields.io/badge/version-0.0.1-blue)
+![Plugin Version](https://img.shields.io/badge/version-0.0.4-blue)
 ![License](https://img.shields.io/badge/license-GPL--3.0-green)
 ![WordPress Compatibility](https://img.shields.io/badge/wordpress-6.3%2B-blue)
 
@@ -51,3 +51,9 @@ This plugin is licensed under GPL-3.0. For more details, check out the `LICENSE`
 ## 💬 Support & Feedback
 
 Encountered an issue? Or have feedback to share? Don't hesitate to [open an issue on GitHub](https://github.com/An-Idea-For-Business/breakdance-extend-block-and-conditions-for-cookie-storage-and-more/issues). We're here to help and continuously improve!
+
+### New Features in Latest Update
+
+- Added support for Element Studio, allowing users to create and manage custom elements, macros, and presets.
+
+For more details, see [CHANGELOG.md](CHANGELOG.md).

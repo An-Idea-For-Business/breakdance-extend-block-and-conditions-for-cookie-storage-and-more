@@ -3,7 +3,7 @@ Contributors: mredodos, aifb
 Tags: breakdance, conditions, blocks, cookie, storage, visibility, control
 Requires at least: 6.0
 Tested up to: 6.3
-Stable tag: 0.0.2
+Stable tag: 0.0.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,6 +25,9 @@ Breakdance Custom Conditions and Blocks for Cookie Storage and More is a WordPre
 After installing and activating the plugin, a new condition titled "Controllo Cookie" will be available in Breakdance Builder. Users can utilize this condition to control the visibility of website elements based on cookie values.
 
 == Changelog ==
+
+= 0.0.4 - 2023-10-01 =
+* change logic of cookie check and add possibility to put value like "nameofcookie:valueofcookie"
 
 = 0.0.3 - 2023-09-21 =
 * change logic of cookie check and add possibility to put value like "nameofcookie:valueofcookie"
