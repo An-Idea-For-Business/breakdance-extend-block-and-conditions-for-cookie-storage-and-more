@@ -1,10 +1,10 @@
 # Changelog
 
-## [0.0.4] - 2023-10-01
+## [0.0.5] - 2023-10-02
 
 ### Added
 
-- change logic of cookie check and add possibility to put value like "nameofcookie:valueofcookie"
+- _NEW_ add elements for set cookie
 
 ## [0.0.3] - 2023-09-21
 

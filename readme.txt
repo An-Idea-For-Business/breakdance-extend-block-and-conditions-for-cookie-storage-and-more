@@ -26,8 +26,8 @@ After installing and activating the plugin, a new condition titled "Controllo Co
 
 == Changelog ==
 
-= 0.0.4 - 2023-10-01 =
-* change logic of cookie check and add possibility to put value like "nameofcookie:valueofcookie"
+= 0.0.5 - 2023-10-02 =
+* *NEW* add elements for set cookie
 
 = 0.0.3 - 2023-09-21 =
 * change logic of cookie check and add possibility to put value like "nameofcookie:valueofcookie"
@@ -42,6 +42,9 @@ After installing and activating the plugin, a new condition titled "Controllo Co
 * Additional comments and documentation in the code for better readability and understanding.
 
 == Upgrade Notice ==
+
+= 0.0.5 - 2023-10-02 =
+*NEW* add elements for set cookie
 
 = 0.0.3 =
 This update includes some fixes and changes. Please ensure to test on a staging environment before updating on live sites.
