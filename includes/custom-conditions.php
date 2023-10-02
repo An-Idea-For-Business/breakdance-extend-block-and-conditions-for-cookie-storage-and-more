@@ -1,7 +1,10 @@
 <?php
 
-namespace AIFB\BreakdanceCustomConditions;
+namespace AIFB\BDCustomElmentsAndConditions\ConditionsRegistration;
 
+if (!defined('WPINC')) {
+    die;
+}
 /**
  * Register a custom condition to control element visibility based on cookie values.
  */

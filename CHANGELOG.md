@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.5] - 2023-10-02
+
+### Added
+
+- _NEW_ add elements for set cookie
+
 ## [0.0.3] - 2023-09-21
 
 ### Added

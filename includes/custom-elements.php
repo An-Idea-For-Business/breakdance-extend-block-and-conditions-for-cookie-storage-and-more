@@ -1,6 +1,9 @@
 <?php
+namespace AIFB\BDCustomElmentsAndConditions\ElementsRegistration;
 
-namespace AIFB\BreakdanceCustomElements;
+if (!defined('WPINC')) {
+    die;
+}
 
 use function Breakdance\Util\getDirectoryPathRelativeToPluginFolder;
 
